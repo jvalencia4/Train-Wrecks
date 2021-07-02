@@ -63,8 +63,7 @@ public class Room extends Fixtures {
 	@Override
 	public String toString() {
 				return "----Welcome to My Home Tour----"+ "\n"+ "You are " + this.getName() + " \n Short Description: " + this.getShortDescription()
-				+ " \nLong Description: " + this.getLongDescription()+"\n"+
-		"Exits: "+ this.getExits();
+				+ " \nLong Description: " + this.getLongDescription();
 	}
 
 }

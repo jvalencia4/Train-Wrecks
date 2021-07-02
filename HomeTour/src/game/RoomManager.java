@@ -2,7 +2,7 @@ package game;
 
 import fixtures.Room;
 
-public class RoomManager extends Room {
+public class RoomManager {
 private Room[]rooms= new Room[8];
 private Room startingRoom;
 public Room outside,lr,dr,kit,hall,br1,br2,rr;
